@@ -1,0 +1,19 @@
+#color  {
+    color: coral;
+}
+#font {
+    font-size: 60px;
+}
+#weight {
+    font-weight: 900;
+}
+#family {
+    font-family:cursive,serif ;
+    
+}
+#Align {
+    text-align: right;
+}
+html {
+    font: size 30px; ;
+}

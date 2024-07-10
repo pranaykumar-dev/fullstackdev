@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    border: 2px solid red ;
+    flex-direction: row;
+    gap: 20px;
+    
+    
+}
+p{
+    border: 2px solid rgb(8, 232, 97);
+    align-items: center;
+    
+}

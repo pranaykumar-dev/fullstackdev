@@ -1,0 +1,367 @@
+
+.mainbox {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #bc4e9c, #f80759, #ce72f0, #bb8ae1);    
+    padding: 0;
+    margin: 0;
+
+}
+h1  {
+    color: white;
+    font-size: 50px;
+}
+h3  {
+    color: white;
+    font-size: 25px;
+}
+h2  {
+    font-size: 30px;
+    color: white;
+}
+p{
+    font-size: 20px;
+    font-weight: 600;
+}
+ 
+
+ body {
+    background-image: linear-gradient(to bottom, #bc4e9c, #f80759, #d78bf3, #bb8ae1);  
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;  
+ }
+.header {
+    text-align: center;
+}
+/* .navlist{
+    display: inline-flex;
+    text-align: center;
+    list-style: none;
+} */
+ 
+button{
+    border-radius: 10%;
+}
+
+
+
+
+
+
+h3 {
+    text-transform: uppercase;
+}
+
+.container {
+    background-image: linear-gradient(to bottom,  #f8ca00, #fff);    
+
+    height: 150px;
+    width: 800px;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: row;
+    justify-content: left;
+    
+
+}
+.box{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    color: blue;
+    background-color: aquamarine;
+    border: 2px solid red;
+}
+ 
+.btn:hover ~ .container {
+    justify-content: right;
+    
+}
+ 
+.container2 {
+    background-image: linear-gradient(to bottom,  #f8ca00, #fff);    
+    height: 150px;
+    width: 800px;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: row;
+    justify-content: right;
+    
+    
+
+}
+.box2{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    color: rgb(247, 51, 21);
+    background-color: aquamarine;
+    border: 2px solid red;
+}
+.btn2:hover ~ .container2 {
+    justify-content: left;
+    
+    
+}
+/* center  */
+.container3 {
+    background-image: linear-gradient(to bottom,  #f8ca00, #fff);    
+    height: 150px;
+    width: 800px;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: row;
+    justify-content: start;
+    
+
+}
+.box3{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    color: rgb(247, 51, 21);
+    background-color: aquamarine;
+    border: 2px solid red;
+}
+.btn3:hover ~ .container3 {
+    justify-content: center;
+    
+}
+/* space-around */
+.container4 {
+    background-image: linear-gradient(to bottom,  #f8ca00, #fff);    
+    height: 150px;
+    width: 800px;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: row;
+    justify-content: start;
+    
+
+}
+.box4{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    color: rgb(247, 51, 21);
+    background-color: aquamarine;
+    border: 2px solid red;
+}
+.btn4:hover ~ .container4 {
+    justify-content: space-around;
+    
+}
+/* space around  */
+.container4 {
+    background-image: linear-gradient(to bottom,  #f8ca00, #fff);    
+    height: 150px;
+    width: 800px;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: row;
+    justify-content: start;
+    
+
+}
+.box4{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    color: rgb(247, 51, 21);
+    background-color: aquamarine;
+    border: 2px solid red;
+}
+.btn4:hover ~ .container4 {
+    justify-content: space-around;
+    
+}
+/* space between */
+.container5 {
+    background-image: linear-gradient(to bottom,  #f8ca00, #fff);    
+    height: 150px;
+    width: 800px;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: row;
+    justify-content: start;
+    
+
+}
+.box5{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    color: rgb(247, 51, 21);
+    background-color: aquamarine;
+    border: 2px solid red;
+}
+.btn5:hover ~ .container5{
+    justify-content: space-between;
+    
+}
+/* space evenly  */
+.container6 {
+    background-image: linear-gradient(to bottom,  #f8ca00, #fff);    
+    height: 150px;
+    width: 800px;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: row;
+    justify-content: start;
+    
+
+}
+.box6{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    color: rgb(247, 51, 21);
+    background-color: aquamarine;
+    border: 2px solid red;
+}
+.btn6:hover ~ .container6 {
+    justify-content: space-evenly;
+    
+}
+/* start */
+.container7 {
+    background-image: linear-gradient(to bottom,  #f8ca00, #fff);    
+    height: 600px;    width: 800px;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    justify-content: end;
+    
+
+}
+.box7{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    color: rgb(247, 51, 21);
+    background-color: aquamarine;
+    border: 2px solid red;
+}
+.btn7:hover ~ .container7 {
+    justify-content: start;
+    
+} 
+/* end */
+.container8{
+    background-image: linear-gradient(to bottom,  #f8ca00, #fff);    
+    height: 600px;    width: 800px;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    justify-content: start;
+    
+
+}
+.box8{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    color: rgb(247, 51, 21);
+    background-color: aquamarine;
+    border: 2px solid red;
+}
+.btn8:hover ~ .container8 {
+    justify-content: end;
+    
+}
+/* center */
+.container9 {
+    background-image: linear-gradient(to bottom,  #f8ca00, #fff);    
+    height: 600px;    width: 800px;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    justify-content: start;
+    
+
+}
+.box9{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    color: rgb(247, 51, 21);
+    background-color: aquamarine;
+    border: 2px solid red;
+}
+.btn9:hover ~ .container9 {
+    justify-content: space-between;
+    
+}
+/* space between */
+.container10 {
+    background-image: linear-gradient(to bottom,  #f8ca00, #fff);    
+    height: 600px;    width: 800px;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    justify-content: start;
+    
+
+}
+.box10{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    color: rgb(247, 51, 21);
+    background-color: aquamarine;
+    border: 2px solid red;
+}
+.btn10:hover ~ .container10 {
+    justify-content: space-between;
+    
+}
+/* space around */
+.container11 {
+    background-image: linear-gradient(to bottom,  #f8ca00, #fff);    
+    height: 600px;    width: 800px;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    justify-content: start;
+    
+
+}
+.box11{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    color: rgb(247, 51, 21);
+    background-color: aquamarine;
+    border: 2px solid red;
+}
+.btn11:hover ~ .container11 {
+    justify-content: space-around;
+    
+}
+/* evenly */
+.container12 {
+    background-image: linear-gradient(to bottom,  #f8ca00, #fff);    
+    height: 600px;
+    width: 800px;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    justify-content: start;
+    
+
+}
+.box12{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    color: rgb(247, 51, 21);
+    background-color: aquamarine;
+    border: 2px solid red;
+}
+.btn12:hover ~ .container12 {
+    justify-content: space-evenly;
+    
+}
+ 
